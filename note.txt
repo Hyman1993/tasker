@@ -1,0 +1,2 @@
+1.使用angular命令创建模块
+ ng g m core
