@@ -1,2 +1,25 @@
+环境:
+node6.9.2
+angular/cli
+
+npm i -g @angular/cli
+   在Angular CLI 1.0.0-beta.28以后版本中，
+    我们安装Angular CLI方式为
+
+npm install -g  @angular/cli
+1
+    所以，卸载方式为
+
+npm uninstall -g @angular/cli
+1
+更新Angular CLI
+  npm cache clean -f
+  npm install -g @angular/cli@latest //升级到最新版本
+  npm install -g @angular/cli@1.1.0  //升级到固定版本号
+
+
 1.使用angular命令创建模块
  ng g m core
+
+2.使用angular创建组件
+ ng g
