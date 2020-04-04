@@ -1,3 +1,6 @@
 1.声明了component但是仍然提示Angular: 'app-header' is not a known element:
   原因：只是在该模块中声明了这个component，并没导出，所以在其他模块中不能用
   解决措施:在该模块中导出该component
+
+2.浏览器出现警告提示:Could not find Angular Material core theme
+ 原因：需要在style.css中导入angular/material的主题

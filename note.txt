@@ -23,3 +23,9 @@ npm uninstall -g @angular/cli
 
 2.使用angular创建组件
  ng g
+
+3.flex布局
+  待学习
+
+4.Material风格UI组件库
+  SideNav:侧边栏导航（侧滑）
