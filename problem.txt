@@ -4,3 +4,7 @@
 
 2.浏览器出现警告提示:Could not find Angular Material core theme
  原因：需要在style.css中导入angular/material的主题
+
+3.url路径找不到
+  原因:只有app路由模块才是Routers.forRoot，其他路由模块都是forChild。
+      需要将其他模块导入APP模块

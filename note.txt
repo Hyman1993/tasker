@@ -29,3 +29,13 @@ npm uninstall -g @angular/cli
 
 4.Material风格UI组件库
   SideNav:侧边栏导航（侧滑）
+
+  md-icon:使用图标字体,内建material icon支持
+  支持svg：通过注入MdIconRegistry和DomSanitizer完成
+  如何使用自定义的svg图标：将下载的图标放入assets目录下,并在需要使用自定义svg图标的组件中导入以下依赖:
+    import {MdIconRegistry} from '@angular/material';
+    import {DomSanitizer} from '@angular/platform-browser'
+
+  input:mdInput在<md-input-container>内部，有前缀后缀
+
+
