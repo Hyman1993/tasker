@@ -14,6 +14,11 @@ main {
   flex:1;
 }
 
+.full-width {
+  width: 100%;
+
+}
+
 .fill-remaining-space {
   // 使用flexbox填充剩余空间
   // @angular/material 中的很多空间使用了flex布局
