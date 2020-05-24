@@ -8,3 +8,10 @@
 3.url路径找不到
   原因:只有app路由模块才是Routers.forRoot，其他路由模块都是forChild。
       需要将其他模块导入APP模块
+
+4.material引用一直有问题
+   解决方法:先清除缓存 npm cache clear --force
+           在导入新的material:npm i --save @angular/material@2.0.0-beta.7
+
+5.angular material的主题一直无法成功?
+  问题: @include mat-core() 就编译失败了
