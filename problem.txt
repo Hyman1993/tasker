@@ -15,3 +15,6 @@
 
 5.angular material的主题一直无法成功?
   问题: @include mat-core() 就编译失败了
+
+6.在实现dialog时，往component中导入dialog对象并没有报错，但是页面访问时出现:No provider for MdDialog error
+  解决措施:往app.module.ts中import这个模块MdDialogModule

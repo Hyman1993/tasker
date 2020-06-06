@@ -38,4 +38,10 @@ npm uninstall -g @angular/cli
 
   input:mdInput在<md-input-container>内部，有前缀后缀
 
+5.app.module.ts是总的模块,其他创建的模块要能被使用的话需要将其他模块的xx.module.ts导入到app.module.ts中
+  (路由模块也是同样的道理)
+
+6.关于import和export的理解
+   import:给自己用
+   export:给别人调用
 
