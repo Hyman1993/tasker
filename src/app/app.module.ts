@@ -6,6 +6,8 @@ import {AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginModule } from './login/login.module';
 import {ProjectModule} from './project/project.module';
+import {TaskModule} from './task/task.module';
+import {OverlayModule} from '@angular/cdk/overlay';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import {ProjectModule} from './project/project.module';
     AppRoutingModule,
     LoginModule,
     ProjectModule,
+    TaskModule,
+    OverlayModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
