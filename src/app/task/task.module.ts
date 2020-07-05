@@ -6,7 +6,6 @@ import { TaskHeaderComponent } from './task-header/task-header.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import {TaskRoutingModule} from './task-routing.module';
 import {SharedModule} from '../shared/shared.module';
-import {MdMenuModule} from '@angular/material';
 
 @NgModule({
   imports: [

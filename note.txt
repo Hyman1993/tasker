@@ -45,3 +45,6 @@ npm uninstall -g @angular/cli
    import:给自己用
    export:给别人调用
 
+
+7.在标签上通过ngClass指令来设置css样式
+  示例: <div md-line class="content" [ngClass]="{'completed':item.completed}">
