@@ -48,3 +48,8 @@ npm uninstall -g @angular/cli
 
 7.在标签上通过ngClass指令来设置css样式
   示例: <div md-line class="content" [ngClass]="{'completed':item.completed}">
+
+8.angular设置弹框
+  关键处理:①this.dialog.open(NewTaskComponent); // 通过dialog的open方法来打开指定的组件
+          ②需要在该模块里，将被打开的组件设置到entryComponents里面
+	      entryComponents: [NewTaskComponent]
