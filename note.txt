@@ -53,3 +53,28 @@ npm uninstall -g @angular/cli
   关键处理:①this.dialog.open(NewTaskComponent); // 通过dialog的open方法来打开指定的组件
           ②需要在该模块里，将被打开的组件设置到entryComponents里面
 	      entryComponents: [NewTaskComponent]
+
+9. 发射器 EventEmitter
+   子组件: ①HTML： <button md-menu-item (click)="onMoveAllClick()">
+          ②TS： @Output() moveAll = new EventEmitter<void>();
+               
+	        onMoveAllClick() {
+                    this.moveAll.emit();
+                 }
+
+    父组件:①HTML:子组件名 (moveAll)="launchCopyTaskDialog()"
+          ②TS:  launchCopyTaskDialog() {
+                   // 处理
+                }
+  
+    处理流程:通过子组件(直接组件)的事件响应，调用子组件的相关方法，将EventEmitter事件发射给对应的父组件
+            父组件监听EventEmitter事件对应的名称，并在响应时调用父组件里对应的方法
+
+10.angular点击传递事件对象以及阻止事件冒泡
+   示例: HTML： (click)="onCheckBoxClick($event)"
+         TS：    onCheckBoxClick(ev: Event) {
+                  ev.stopPropagation()
+                }
+
+11.angular中如何声明一个组件为一个模块所有
+   做法:在该模块的declarations里声明该组件
