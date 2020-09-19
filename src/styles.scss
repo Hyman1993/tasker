@@ -26,3 +26,9 @@ main {
   // @angular/material 中的很多空间使用了flex布局
   flex:1 1 auto;
 }
+
+.square {
+  width:100px;
+  height:100px;
+  background-color: black;
+}

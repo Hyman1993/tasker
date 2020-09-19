@@ -8,6 +8,8 @@ import { LoginModule } from './login/login.module';
 import {ProjectModule} from './project/project.module';
 import {TaskModule} from './task/task.module';
 import {OverlayModule} from '@angular/cdk/overlay';
+import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-browser/animations';
+import {SharedModule} from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import {OverlayModule} from '@angular/cdk/overlay';
     BrowserModule,
     MdSidenavModule,
     CoreModule,
-    AppRoutingModule,
     LoginModule,
     ProjectModule,
     TaskModule,
     OverlayModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

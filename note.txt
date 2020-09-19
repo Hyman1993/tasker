@@ -1,3 +1,16 @@
+访问页面:
+主页(登录页面):http://localhost:4200/
+             http://localhost:4200/login
+注册页面
+http://localhost:4200/register
+
+项目列表
+http://localhost:4200/project
+
+工作任务列表
+http://localhost:4200/tasklists
+
+
 环境:
 node6.9.2
 angular/cli
@@ -78,3 +91,14 @@ npm uninstall -g @angular/cli
 
 11.angular中如何声明一个组件为一个模块所有
    做法:在该模块的declarations里声明该组件
+
+12.使用angular animation时出现this.engine.setProperty is not a function异常
+    解决措施:升级animation库 
+            npm install --save @angular/animations@4.3.0
+  
+
+13.路由动画
+
+14.Query & Stagger
+  Query用于父节点寻找子节点
+  Stagger指定有多个满足Query的元素,每个动画之间有间隔
