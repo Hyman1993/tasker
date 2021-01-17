@@ -20,7 +20,8 @@ import {AppRoutingModule} from '../app-routing.module';
   declarations: [HeaderComponent, FooterComponent, SidebarComponent],
   exports: [
     HeaderComponent, FooterComponent, SidebarComponent, AppRoutingModule,
-  ]
+  ],
+
 })
 export class CoreModule {
   constructor(@Optional() @SkipSelf() parent: CoreModule,

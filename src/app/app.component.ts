@@ -1,6 +1,7 @@
-import { Component,  HostBinding } from '@angular/core';
+import {Component, HostBinding, Inject, ReflectiveInjector} from '@angular/core';
 import {OverlayContainer} from '@angular/cdk/overlay';
 import {trigger, state, transition, style, animate} from '@angular/animations';
+import {environment} from '../environments/environment';
 
 @Component({
   selector: 'app-root',
