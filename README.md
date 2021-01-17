@@ -7,42 +7,44 @@ A project management system developed by Angular4.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## DEMO
-### HomePage
+### 一、HomePage
 
 url:http://localhost:4200/
 
 ![image](https://github.com/Hyman1993/tasker/blob/master/image/homepage01.JPG)
 
-#### SideBar
+### 二、SideBar
 
 click SideBar button in Homepage.
 
 ![image](https://github.com/Hyman1993/tasker/blob/master/image/sidebar.JPG)
 
-### Register Page
+### 三、Register Page
 
 url:http://localhost:4200/register
 
 ![image](https://github.com/Hyman1993/tasker/blob/master/image/register.JPG)
 
-### Project Page
+### 四、Project Page
 
 url:http://localhost:4200/project
 
 ![image](https://github.com/Hyman1993/tasker/blob/master/image/project01.JPG)
 
-#### Action in Project Page
+### 五、Action in Project Page
 
 click the project item which you want to change.
 
 ![image](https://github.com/Hyman1993/tasker/blob/master/image/project02.JPG)
 
-### Task Page
+### 六、Task Page
 
 url:http://localhost:4200/tasklists
 
 ![image](https://github.com/Hyman1993/tasker/blob/master/image/task01.JPG)
 
-#### Action in Task Page
+### 七、Action in Task Page
+
 click the task item which you want to change.
+
 ![image](https://github.com/Hyman1993/tasker/blob/master/image/task02.JPG)
